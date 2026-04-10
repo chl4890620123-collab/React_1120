@@ -1,0 +1,48 @@
+/* App.css - Premium Fruit Shop Global Theme */
+
+@import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;800&display=swap');
+
+:root {
+  --primary-green: #2ecc71;
+  --dark-green: #27ae60;
+  --soft-orange: #ffab76;
+  --bg-white: #fdfdfd;
+  --text-main: #2d3436;
+  --text-sub: #636e72;
+  --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+body {
+  font-family: 'Pretendard', sans-serif;
+  background-color: var(--bg-white);
+  color: var(--text-main);
+  overflow-x: hidden;
+}
+
+/* 세련된 버튼 공통 스타일 */
+.btn-primary {
+  background-color: var(--primary-green) !important;
+  border: none !important;
+  border-radius: 50px !important;
+  font-weight: 700 !important;
+  padding: 10px 25px !important;
+  box-shadow: 0 4px 15px rgba(46, 204, 113, 0.2) !important;
+  transition: all 0.3s ease !important;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(46, 204, 113, 0.3) !important;
+}
+
+/* 카드 공통 스타일 */
+.card {
+  border: none !important;
+  border-radius: 20px !important;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}

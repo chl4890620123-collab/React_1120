@@ -1,0 +1,115 @@
+/* Board.css - 밝은 배경에 최적화된 가독성 버전 */
+
+.board-main-container { 
+    padding: 80px 15px; 
+    background-color: #f8fafb !important; /* 깨끗한 연회색 배경 */
+    min-height: 100vh; 
+}
+
+.board-header-text { text-align: center; margin-bottom: 50px; }
+
+/* ⭐ 타이틀: 네온색 대신 진한 색상으로 변경하여 가독성 확보 */
+.premium-title { 
+    font-weight: 800; 
+    font-size: 2.5rem; 
+    color: #2d3436 !important; /* 아주 진한 회색 (검정색에 가까움) */
+    text-shadow: none !important; /* 네온 효과 제거 */
+}
+
+.premium-subtitle { 
+    color: #636e72 !important; 
+    font-size: 1.1rem; 
+    margin-top: 10px; 
+}
+
+.accent-line { 
+    width: 50px; 
+    height: 4px; 
+    background: #2ecc71 !important; /* 리민농장 포인트 그린 */
+    margin: 20px auto; 
+    border-radius: 10px; 
+}
+
+/* 카드 레이아웃 */
+.board-card-layout { 
+    background: white !important; 
+    border-radius: 30px; 
+    padding: 20px; 
+    box-shadow: 0 15px 40px rgba(0,0,0,0.03); 
+    border: 1px solid rgba(0,0,0,0.02);
+}
+
+/* 테이블 스타일 */
+.magazine-table-core { border-collapse: separate; border-spacing: 0 8px; width: 100%; }
+.magazine-table-core thead th { 
+    border: none; 
+    padding: 15px; 
+    color: #b2bec3 !important; /* 헤더 글자 회색 */
+    font-size: 0.85rem; 
+    background-color: transparent !important;
+}
+
+.magazine-table-core tbody tr { 
+    background: #fafbfc !important; 
+    border-radius: 15px; 
+    transition: 0.3s; 
+    cursor: pointer; 
+}
+
+.magazine-table-core tbody tr:hover { 
+    transform: scale(1.01); 
+    background: #f0fff4 !important; /* 마우스 올렸을 때 연한 그린 */
+}
+
+.magazine-table-core td { 
+    padding: 20px !important; 
+    border: none; 
+    vertical-align: middle; 
+    color: #2d3436 !important; /* 테이블 내부 글자색 진하게 */
+}
+
+/* 데이터 컬럼 스타일 */
+.col-no { font-weight: 700; color: #ced4da !important; }
+.col-title { font-weight: 800; color: #2d3436 !important; font-size: 1.05rem; }
+.col-desc { color: #636e72 !important; max-width: 250px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* 버튼 디자인 */
+.mini-btn { border: none; padding: 5px 12px; border-radius: 8px; font-size: 0.8rem; font-weight: 700; margin: 0 2px; }
+.mini-btn.edit { background: #e8f5e9; color: #2ecc71; }
+.mini-btn.delete { background: #fff0f0; color: #ff7675; }
+
+.btn-premium-action { 
+    background: #2ecc71 !important; 
+    border: none !important; 
+    border-radius: 50px !important; 
+    padding: 12px 30px !important; 
+    font-weight: 800 !important; 
+    color: white !important;
+}
+
+.btn-premium-outline { 
+    background: white !important; 
+    border: 2px solid #eee !important; 
+    color: #636e72 !important; 
+    border-radius: 50px !important; 
+    padding: 10px 25px !important; 
+    font-weight: 700 !important; 
+}
+
+/* 콘텐츠 뷰 카드 */
+.content-card { 
+    background: white !important; 
+    border-radius: 40px; 
+    padding: 50px; 
+    box-shadow: 0 20px 50px rgba(0,0,0,0.04); 
+    max-width: 850px; 
+    margin: 0 auto; 
+}
+
+.content-header { border-bottom: 1px solid #eee; padding-bottom: 25px; margin-bottom: 30px; text-align: center; }
+.category-tag { background: #f0fff4; color: #2ecc71; padding: 4px 12px; border-radius: 50px; font-weight: 800; font-size: 0.75rem; }
+.content-body { line-height: 1.8; color: #444 !important; font-size: 1.1rem; min-height: 150px; }
+.premium-input { border-radius: 15px; padding: 15px; border: 1px solid #eee !important; background: white !important; color: #333 !important; }
+
+.fade-in { animation: fadeIn 0.4s ease-out; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }

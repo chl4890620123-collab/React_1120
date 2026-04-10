@@ -1,0 +1,74 @@
+/* 전체 배경 레이아웃 */
+.login-full-bg {
+    background-color: #f8fcf9; /* 연한 초록빛이 감도는 밝은 회색 */
+    width: 100%;
+}
+
+/* 큼직한 카드 디자인 */
+.login-card-custom {
+    width: 100%;
+    max-width: 550px; /* 폭을 넓혀 시원하게 만듬 */
+    border: none !important;
+    border-radius: 40px !important; /* 모서리를 크게 둥글게 */
+    background: #ffffff !important;
+}
+
+/* 제목 스타일 */
+.login-title {
+    font-size: 2.8rem;
+    font-weight: 900;
+    color: #2ecc71;
+    letter-spacing: -2px;
+    margin-bottom: 10px;
+}
+
+.login-subtitle {
+    color: #888;
+    font-weight: 500;
+}
+
+/* 입력창 스타일 */
+.login-input-lg {
+    padding: 16px 20px !important;
+    border-radius: 18px !important;
+    border: 1px solid #eee !important;
+    background-color: #fafafa !important;
+    font-size: 1.1rem !important;
+    transition: all 0.3s ease;
+}
+
+.login-input-lg:focus {
+    background-color: #fff !important;
+    border-color: #2ecc71 !important;
+    box-shadow: 0 0 12px rgba(46, 204, 113, 0.2) !important;
+    outline: none;
+}
+
+/* 로그인 버튼 */
+.login-btn-green {
+    background-color: #2ecc71 !important;
+    border: none !important;
+    border-radius: 18px !important;
+    font-size: 1.2rem !important;
+    font-weight: 800 !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.login-btn-green:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(46, 204, 113, 0.3) !important;
+}
+
+/* 하단 링크 */
+.btn-link-custom {
+    border: none;
+    background: none;
+    color: #2ecc71;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+.btn-link-custom:hover {
+    color: #27ae60;
+}

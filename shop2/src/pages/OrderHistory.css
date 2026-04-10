@@ -1,0 +1,107 @@
+/* 1. 공통 밝은 배경 및 전체 글자색 설정 */
+.history-bg {
+    background-color: #f8fafb !important; /* 게시판과 동일한 신선한 배경색 */
+    min-height: 100vh;
+    color: #2d3436 !important; /* 진한 회색 텍스트 */
+    padding-bottom: 50px;
+}
+
+/* 2. 제목 스타일 (게시판 프리미엄 타이틀 스타일) */
+.history-main-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #2d3436 !important; /* 진한 다크 그레이 */
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 50px;
+}
+
+/* 3. 박스/카드 내부 스타일 (화이트 테마) */
+.history-card-box {
+    background: #ffffff !important; /* 순백색 카드 배경 */
+    border: 1px solid rgba(0,0,0,0.05) !important;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.03);
+    color: #2d3436 !important; 
+}
+
+.section-title {
+    font-size: 1.1rem;
+    color: #2ecc71 !important; /* 신선한 리민 그린 */
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* 4. 입력창 (밝은 배경 전용) */
+.dark-input {
+    background: #ffffff !important;
+    border: 1px solid #eee !important;
+    color: #333 !important;
+}
+.dark-input::placeholder {
+    color: #b2bec3 !important;
+}
+
+/* 5. 테이블 스타일 (밝은 배경 최적화) */
+.history-dark-table {
+    background-color: transparent !important;
+    color: #2d3436 !important;
+}
+.history-dark-table th {
+    background-color: #f1f3f5 !important;
+    color: #636e72 !important; /* 헤더는 차분한 회색 */
+    border-bottom: 2px solid #2ecc71 !important; /* 포인트 라인 */
+    padding: 15px !important;
+    font-weight: 700;
+}
+.history-dark-table td {
+    background-color: #ffffff !important;
+    color: #2d3436 !important;
+    border-bottom: 1px solid #f1f3f5 !important;
+    padding: 20px 10px !important;
+    vertical-align: middle;
+}
+
+/* 6. 취소 버튼 스타일 */
+.btn-history-cancel {
+    background: #fff0f0 !important;
+    border: none !important;
+    color: #ff7675 !important;
+    font-size: 12px !important;
+    padding: 6px 12px !important;
+    border-radius: 8px;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.btn-history-cancel:hover {
+    background: #ff7675 !important;
+    color: #ffffff !important;
+}
+
+/* 7. 포인트 컬러 및 기타 스타일 */
+.neon-text {
+    color: #2ecc71 !important; /* 네온 연두에서 그린으로 변경 */
+    font-weight: bold;
+}
+
+.neon-badge {
+    background-color: #e8f5e9 !important; /* 연한 그린 배경 */
+    color: #2ecc71 !important; /* 진한 그린 글자 */
+    padding: 8px 14px !important;
+    font-weight: 800;
+    border-radius: 50px;
+}
+
+.addr-text {
+    color: #636e72 !important; /* 주소는 약간 흐린 회색 */
+    font-size: 0.9rem;
+}
+
+/* 8. 빈 내역 안내 */
+.empty-text {
+    text-align: center;
+    padding: 50px 0;
+    color: #b2bec3;
+}

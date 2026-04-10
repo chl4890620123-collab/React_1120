@@ -1,0 +1,128 @@
+/* ============================================================
+   🌿 리민농장 프리미엄 다크 테마 (과일 강조 버전) 🌿
+   index.css의 밝은 배경(#FBFBFB)을 강제로 덮어씌웁니다.
+   ============================================================ */
+
+/* 1. 최상위 페이지 배경 (Checkout, OrderHistory 전용) */
+.dark-theme-wrapper {
+    background-color: #0a0a0a !important; /* index.css 무시하고 블랙 고정 */
+    min-height: 100vh !important;
+    color: #ffffff !important;
+    padding: 60px 0 !important;
+    position: relative;
+    z-index: 1;
+}
+
+/* 2. 네온 연두 메인 타이틀 */
+.premium-title {
+    font-family: 'Montserrat', 'Noto Sans KR', sans-serif !important;
+    font-size: 2.5rem !important;
+    font-weight: 900 !important;
+    color: #adff2f !important; /* 네온 연두색 */
+    text-align: center !important;
+    margin-bottom: 40px !important;
+    text-shadow: 0 0 15px rgba(173, 255, 47, 0.4) !important;
+}
+
+/* 3. 다크 카드 섹션 (주문서, 테이블 감싸는 박스) */
+.premium-card {
+    background-color: #1a1a1a !important; /* 카드 내부 딥 차콜 */
+    border: 1px solid #333333 !important;
+    border-radius: 20px !important;
+    padding: 30px !important;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8) !important;
+    color: #ffffff !important;
+}
+
+/* 4. 라벨 스타일 (배송지 정보 등) */
+.premium-label {
+    color: #adff2f !important;
+    font-weight: 800 !important;
+    border-left: 5px solid #adff2f !important;
+    padding-left: 15px !important;
+    margin-bottom: 25px !important;
+}
+
+/* 5. 입력창 (다크 전용) */
+.premium-input, .dark-form-input {
+    background-color: #000000 !important;
+    border: 1px solid #444444 !important;
+    color: #ffffff !important;
+    padding: 12px !important;
+    border-radius: 8px !important;
+}
+
+.premium-input:focus {
+    border-color: #adff2f !important;
+    box-shadow: 0 0 8px rgba(173, 255, 47, 0.3) !important;
+}
+
+/* 6. 테이블 스타일 (가장 중요: 가독성 확보) */
+.premium-table, .neon-dark-table {
+    background-color: transparent !important;
+    color: #ffffff !important;
+    border-collapse: separate !important;
+    border-spacing: 0 10px !important;
+}
+
+.premium-table thead th, .neon-dark-table thead th {
+    background-color: #252525 !important;
+    color: #adff2f !important; /* 헤더 텍스트 연두색 */
+    border-bottom: 2px solid #adff2f !important;
+    padding: 15px !important;
+    font-weight: 800 !important;
+}
+
+.premium-table tbody td, .neon-dark-table tbody td {
+    background-color: #1f1f1f !important; /* 줄마다 약간의 배경 */
+    color: #ffffff !important; /* 내용 글자 흰색 고정 */
+    border-top: 1px solid #333 !important;
+    border-bottom: 1px solid #333 !important;
+    padding: 20px 15px !important;
+}
+
+/* 7. 상품명 및 가격 강조 */
+.premium-item-name {
+    font-weight: 700 !important;
+    font-size: 1.1rem !important;
+}
+
+.premium-neon-text {
+    color: #adff2f !important;
+    font-weight: 900 !important;
+}
+
+/* 8. 결제 버튼 (네온 연두) */
+.premium-pay-btn, .neon-pay-button {
+    background-color: #adff2f !important;
+    color: #000000 !important; /* 버튼 글자는 검정이 제일 잘 보임 */
+    font-weight: 900 !important;
+    border: none !important;
+    padding: 18px !important;
+    border-radius: 15px !important;
+    width: 100% !important;
+    font-size: 1.2rem !important;
+    transition: 0.3s ease !important;
+}
+
+.premium-pay-btn:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 10px 20px rgba(173, 255, 47, 0.5) !important;
+}
+
+/* 9. 기타 요소 (뱃지, 텍스트) */
+.neon-badge-p {
+    background-color: #adff2f !important;
+    color: #000000 !important;
+    font-weight: bold !important;
+    padding: 8px 12px !important;
+}
+
+.text-white-50 {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.premium-hr {
+    border-top: 1px solid #444 !important;
+    margin: 20px 0 !important;
+}

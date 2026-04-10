@@ -1,0 +1,74 @@
+/* 1. 테이블 전체 박스를 밝은 화이트 테마로 변경 */
+.dark-section-box, .history-card-box {
+    background: #ffffff !important; /* 깨끗한 화이트 배경 */
+    border: 1px solid #e9ecef !important; /* 연한 회색 테두리 */
+    border-radius: 12px;
+    padding: 25px;
+    color: #2d3436 !important; /* 진한 회색 글자 */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05) !important;
+}
+
+/* 2. 테이블 내부 스타일 (밝은 배경 가독성 최적화) */
+.dark-table, .history-dark-table {
+    background-color: transparent !important;
+    margin-bottom: 0 !important;
+}
+
+/* 테이블 제목 (상품명, 수량, 금액 부분) */
+.dark-table thead th, .history-dark-table thead th {
+    background-color: #f8f9fa !important; /* 연한 회색 헤더 */
+    color: #636e72 !important; /* 차분한 회색 글자 */
+    border-bottom: 2px solid #2ecc71 !important; /* 포인트 그린 하단 선 */
+    padding: 15px !important;
+    font-weight: 800;
+}
+
+/* 테이블 내용 (실제 상품 데이터) */
+.dark-table tbody td, .history-dark-table tbody td {
+    background-color: #ffffff !important; /* 배경은 화이트 */
+    color: #2d3436 !important; /* 글자는 진한 회색 */
+    border-bottom: 1px solid #f1f3f5 !important;
+    padding: 18px 10px !important;
+    vertical-align: middle;
+}
+
+/* 상품명 강조 (진한 회색) */
+.item-name {
+    color: #2d3436 !important;
+    font-weight: 700;
+}
+
+/* 금액 및 강조 텍스트 (그린 포인트) */
+.neon-text, .neon-price {
+    color: #2ecc71 !important; /* 네온 연두 대신 신선한 그린 */
+    font-weight: 800;
+}
+
+/* 3. 입력창 디자인 (밝은 배경용) */
+.dark-input {
+    background-color: #ffffff !important;
+    border: 1px solid #ced4da !important;
+    color: #333333 !important;
+    height: 50px;
+    border-radius: 8px !important;
+}
+
+.dark-input:focus {
+    border-color: #2ecc71 !important; /* 포커스 시 그린 테두리 */
+    box-shadow: 0 0 10px rgba(46, 204, 113, 0.1) !important;
+    outline: none;
+}
+
+/* 추가: 최종 결제 박스 등 가독성 보정 */
+.section-title {
+    color: #2ecc71 !important;
+    font-weight: 800;
+    border-left: 4px solid #2ecc71;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.total-sticky-card {
+    background: #ffffff !important;
+    border: 2px solid #2ecc71 !important;
+}
